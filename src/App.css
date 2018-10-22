@@ -1,0 +1,145 @@
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+.mainPage
+{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(0, 121, 191);
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    line-height: 1em;
+    color: #FFF;
+}
+
+.header
+{
+    height: 40px;
+    background-color: rgba(0,0,0,.15);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.header div{
+    display: flex;
+    flex-direction: row;
+    font-size: 16px;
+}
+
+.header div div{
+    border-radius: 3px;
+    margin: auto 2px;
+    background-color: rgb(77, 149, 191);
+    padding: 8px 8px;
+    font-weight: bold;
+}
+.search i{
+    margin-left: 150px;
+}
+.logo *{
+    font-size: 24px;
+    margin: auto 3px;
+    color: rgb(127,179,209);
+}
+
+.content{
+    overflow-y: hidden;
+    overflow-x: auto;
+    margin-top: 10px;
+}
+.contentHead{
+    height: 28px;
+}
+.leftContentHead{
+    display: flex;
+    flex-direction: row;
+}
+.leftContentHead a{
+    text-decoration: none;
+    color: #FFF;
+}
+.boardName a{
+    font-size: 18px;
+    margin-right: 15px
+}
+.leftContentHead div{
+    border-right: 1px solid rgb(51, 141, 204);
+    padding: 5px 12px;
+}
+
+.bordName *{
+    margin: auto 10px
+}
+.users , .addUser{
+    padding: 5px;
+    border-radius: 50%;
+    margin: 5px 10px
+}
+.rightContentHead{
+    margin: 10px;
+    text-decoration: underline;
+}
+.rightContentHead span{
+position: relative;
+top: -3px;
+}
+.rightContentHead{
+    margin-top: 10px;
+}
+.contentHead{
+    display: flex;
+    justify-content: space-between;
+}
+.cards{
+    /* position: absolute;
+    top: 100px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow-x: auto;
+    overflow-y: hidden; */
+    display: flex;
+    flex-direction: row;
+}
+#card{
+    margin: 20px 5px;
+    background-color: rgb(223,227,230);
+    color: #000;
+    font-size: 14px;
+    max-height: 100%;
+    border-radius: 5px;
+}
+
+.cardTitle{
+    display: flex;
+    justify-content: space-between;
+}
+.cardTitle p{
+  margin-top: 8px;
+}
+.listItem{
+    background-color: rgb(255,255,255);
+    width: 100%;
+    margin: 10px auto;
+    padding: 3px;
+    border-radius: 5px;
+}
+.addCard i{
+    width: 100%;
+    color: gray;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.addList{
+    background-color: rgb(0,106,168);
+    padding: 10px;
+    margin: 20px 5px;
+    border-radius: 5px;
+    height: 50px;
+}
+.addCardDetail{
+    display: none;
+}
